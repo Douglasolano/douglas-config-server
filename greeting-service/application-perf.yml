@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: greeting-service
+greeting-service:
+  greeting: "Hola"
+  defaut-value: "Mundo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
